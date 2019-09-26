@@ -6,7 +6,7 @@ let finishLocation = []; // [row, column])
 let treeImage = "img/tree.png";
 let bearImage = "img/bear.png";
 let cabinImage = "img/cabin.png";
-let blankImage = "img/blank.jpg";
+let blankImage = "img/blank.png";
 
 // in the maze, W = a wall (tree), S = starting location, F = finish location, and B = bear location (starts at S)
 //original maze:

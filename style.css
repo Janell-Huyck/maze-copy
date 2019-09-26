@@ -1,5 +1,7 @@
 :root {
-    background-color:green;
+    --overallBackgroundColor:green;
+    --darkForestColor: darkgoldenrod;
+    --lightForestColor: rgb(200, 153, 0);
 }
 
 body {
@@ -11,7 +13,7 @@ body {
 footer {
     display: flex;
     width: 100%;
-    background-color: green;
+    background-color: var(--overallBackgroundColor);
     justify-content: space-between;
 }
 
@@ -52,7 +54,7 @@ header img {
 
 .maze {
     width: 70%;
-    background-color: darkgoldenrod;
+    background-color:  var(--lightForestColor);
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -75,11 +77,10 @@ header img {
 }
 
 .tree {
-    background-color: darkgoldenrod;
+    background-color:  var(--darkForestColor);
 }
 
 .blank {
-    opacity: 0.4;
 }
 
 .youWon {
